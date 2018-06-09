@@ -2,6 +2,7 @@ package br.com.brinkaedekora.services;
 
 import org.junit.Test;
 import org.junit.Before;
+import org.junit.Ignore;
 import br.com.brinkaedekora.models.Produto;
 import static org.junit.Assert.*;
 
@@ -76,6 +77,7 @@ public class TestProdutoService {
         //Checking if the service "getProdutos" return some value
     }
 
+    @Ignore
     @Test
     public void testDeleteAll() {
         // Checking if all data is removed
