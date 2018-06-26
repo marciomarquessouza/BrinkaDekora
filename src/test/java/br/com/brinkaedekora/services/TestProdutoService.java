@@ -11,7 +11,7 @@ public class TestProdutoService {
     // Variabels that will be used in the tests
     ProdutoService produtoService = new ProdutoService();
     Produto produto = new Produto();
-    String name = "one name";
+    String name = "This is one name";
     String description = "one description";
     String url_foto = "one url_foto";
     String url_video = "one url_video";
